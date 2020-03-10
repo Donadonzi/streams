@@ -25,7 +25,7 @@ class GoogleAuth extends React.Component {
         });
     }
 
-    /* Commented this out, to change the flow to be motabeghe redux principals. So we don't have component level state; and we need to call the action vreators here
+    /* Commented this out, to change the flow to be motabeghe redux principals. So we don't have component level state; and we need to call the action creators here
     onAuthChange = () => {
         this.setState( { isSignedIn : this.auth.isSignedIn.get() });
     };
