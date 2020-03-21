@@ -1,5 +1,8 @@
 import React from 'react';
 import { Field, reduxForm, getFormMeta} from 'redux-form';
+import { connect } from 'react-redux';
+
+import { createStream } from '../../actions';
 
 
 /* We created a functional component in the begining just for the sake of it! We now change to a class-based compo because we need a bunch of helper methods in it.
@@ -32,8 +35,8 @@ class StreamCreate extends React.Component {
         );
     }
 
-    onSubmit(formValues) {
-        console.log(formValues);
+    onSubmit = formValues => {
+        this.props.createStream(formValues);
     }
 
     render() {    
@@ -61,7 +64,14 @@ const validate = formValues => {
     return errors;
 };
 
-export default reduxForm({
+// export default reduxForm({
+//     form: 'streamCreate',
+//     validate: validate
+// })(StreamCreate);
+// Changed the above, to use connect() for the action creator
+const formWrapped = reduxForm({
     form: 'streamCreate',
     validate: validate
 })(StreamCreate);
+
+export default connect(null, { createStream })(formWrapped);

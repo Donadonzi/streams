@@ -1,3 +1,32 @@
 {
-    "streams": []
+  "streams": [
+    {
+      "title": "1",
+      "description": "first",
+      "id": 1
+    },
+    {
+      "title": "2",
+      "description": "second stream",
+      "id": 2
+    },
+    {
+      "title": "3",
+      "description": "This is for checking th ID",
+      "ID": "114510907929755547101",
+      "id": 3
+    },
+    {
+      "title": "4",
+      "description": "This is for changing the name of the property to userId",
+      "userId": "114510907929755547101",
+      "id": 4
+    },
+    {
+      "title": "5",
+      "description": "To ckeck what happens if I'm not signed in",
+      "userId": null,
+      "id": 5
+    }
+  ]
 }
