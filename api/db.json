@@ -33,6 +33,12 @@
       "description": "This is to test the programmatic navigation",
       "userId": "114510907929755547101",
       "id": 6
+    },
+    {
+      "title": "testing refactored compo",
+      "description": "This is to test the new StreamForm component",
+      "userId": "114510907929755547101",
+      "id": 7
     }
   ]
 }
