@@ -36,9 +36,14 @@
     },
     {
       "title": "testing refactored compo",
-      "description": "This is to test the new StreamForm component",
+      "description": "This is to teditted to test PATCH request effect",
       "userId": "114510907929755547101",
       "id": 7
+    },
+    {
+      "title": "test edit",
+      "description": "I am editted!",
+      "id": 8
     }
   ]
 }
