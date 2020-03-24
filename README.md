@@ -1,7 +1,7 @@
+![alt text](https://github.com/Donadonzi/streamer/tree/master/client/public/logo192.png "React Logo")
 
-I built `Streamer` app as a part of my React course.
+`Streamer` app features:
 
-Features:
 
 *	A **CRUD**, **Single Page App** built using `React Redux`, `React Router` and `Redux Form`
 *	User login system using `Google API` and `OAuth` authentication flow
