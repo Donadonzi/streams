@@ -1,4 +1,3 @@
-![alt text](https://github.com/Donadonzi/streamer/tree/master/client/public/logo192.png "React Logo")
 
 `Streamer` app features:
 
